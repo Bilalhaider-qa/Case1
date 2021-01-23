@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-23T14:40:04 PKT" name="Default suite" finished-at="2021-01-23T14:42:13 PKT" duration-ms="129086">
+    <groups>
+    </groups>
+    <test started-at="2021-01-23T14:40:04 PKT" name="Default test" finished-at="2021-01-23T14:42:13 PKT" duration-ms="129086">
+      <class name="WeRPlayAssignemnts.Task1Arabic">
+        <test-method is-config="true" signature="setuptest()[pri:0, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b]" started-at="2021-01-23T14:40:04 PKT" name="setuptest" finished-at="2021-01-23T14:40:28 PKT" duration-ms="23352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method signature="CartTask()[pri:3, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b]" started-at="2021-01-23T14:40:28 PKT" name="CartTask" finished-at="2021-01-23T14:41:51 PKT" duration-ms="83492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartTask -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b]" started-at="2021-01-23T14:41:51 PKT" name="invokeScreenshotMethod" finished-at="2021-01-23T14:41:51 PKT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CartTask status=SUCCESS method=Task1Arabic.CartTask()[pri:3, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="Checkout()[pri:4, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b]" started-at="2021-01-23T14:41:51 PKT" name="Checkout" finished-at="2021-01-23T14:42:13 PKT" duration-ms="22007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b]" started-at="2021-01-23T14:42:13 PKT" name="invokeScreenshotMethod" finished-at="2021-01-23T14:42:13 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkout status=SUCCESS method=Task1Arabic.Checkout()[pri:4, instance:WeRPlayAssignemnts.Task1Arabic@4c1d9d4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+      </class> <!-- WeRPlayAssignemnts.Task1Arabic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
